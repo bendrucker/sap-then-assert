@@ -1,0 +1,25 @@
+{
+  "name": "sap-then-assert",
+  "version": "0.0.1",
+  "description": "Playground for using sinon-as-promised with Mocha and Angular-style $q but without Angular, pure Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test1.specs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pauleveritt/sap-then-assert.git"
+  },
+  "author": "Paul Everitt <paul@agendaless.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pauleveritt/sap-then-assert/issues"
+  },
+  "homepage": "https://github.com/pauleveritt/sap-then-assert#readme",
+  "devDependencies": {
+    "chai": "3.2.0",
+    "mocha": "2.2.5",
+    "sinon": "1.15.4",
+    "sinon-as-promised": "4.0.0"
+  }
+}
