@@ -16,7 +16,7 @@ describe("Controller Tests", function () {
         /* This DOES get asserted */
         expect(1).to.equal(1);
 
-        result.then(function () {
+        return result.then(function () {
             /* This is executed */
             console.log(".then() is executed");
 
